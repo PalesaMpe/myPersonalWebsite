@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  margin: 0 auto 0 auto;
+}
+
+h2 {
+  font-family: "Inconsolata", monospace;
+  font-weight: normal;
+}
+img {
+  border-radius: 50%;
+
+  height: 350px;
+  width: 350px;
+
+  margin: 20px auto auto 20px;
+}
+
+.profile-name {
+  display: inline-block;
+  position: absolute;
+  left: 400px;
+  bottom: 500px;
+}
+
+.top-container {
+  background-color: #d9d7f1;
+  height: 600px;
+  width: 100%;
+}
+
+.middle-container {
+  background-image: linear-gradient(to right, #93b5c6, #e8f6ef);
+  margin: auto 60px auto 60px;
+
+  position: relative;
+  bottom: 50px;
+}
